@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    width: 980px;
+    margin: 0 auto;
+    font-family: 'Noto Serif', serif;
+}
+header article section img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+header article section a:hover {
+    opacity: 0.7;
+
+}
+
+hr{
+    height: 10px;
+    background: url(./assets/hr-img.png);
+    border: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+header {
+    clear: both;
+    height: 100px;
+    padding: 30px 0 20px 0;
+}
+
+header article {
+    height: 65px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    float: left;
+    margin: 0 1px;
+}
+
+header ul li:nth-child(6) {
+    margin-right: 5px;
+}
+
+.logo-container img {
+    float: left;
+}
+.logo-container div {
+    margin-left: 50px;
+}
+
+.logo-container div p:first-child {
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    color: #000;
+}
+
+.logo-container div p {
+    margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #4d3e3e;
+}
+
+main h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+main article {
+    margin-top: 30px;
+    min-height: 70px;
+}
+
+main article:first-child {
+    margin-top: 0;
+}
+
+main article:first-child p {
+    font-size: 13px;
+    color: #888;
+}
+
+main p {
+    margin: 0;
+}
+
+
+.print {
+    position: relative;
+    top: 50px;
+}
+
+.print a {
+    text-decoration: none;
+    color: #888888;
+
+    font-size: 13px;
+}
+
+.print a p {
+    display: inline;
+}
+.print a p:hover {
+    color: #000;
+}
+
+.chocoPizza {
+    width: 100%;
+}
+
+.recipe-desc p {
+    color: gray;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    text-indent: 30px;
+    margin: 20px 0px;
+}
+
+#checklistimg{
+    overflow: hidden;
+    width: 100%;
+}
+ 
+#container{
+    position: relative;
+    width: 100%;
+}
+#firstlist{
+    position: absolute;
+    left:10%;
+    top: 10%;
+}
+#secondlist{
+    position: absolute;
+    right:10%;
+    top: 10%;
+}
+.list-check{
+    -webkit-appearance: none;
+    background-color:transparent ;
+    border: 1px solid gray;
+    padding: 5px;
+    top: 9px;
+    padding-top: 1;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 8px;
+}
+.list-check:checked {
+    background-color: transparent;
+    border: 1px solid gray;
+    text-decoration: line-through;
+    color: black;
+    margin-bottom: 8px;
+ 
+}
+.list-check:checked:after {
+    content: '\2714';
+    font-size: 15px;
+    position: absolute;
+    top: -8px;
+    left: 1px; 
+    color: grey;
+}
+input:checked+label {
+     text-decoration: line-through;
+     color:grey;
+}
+.list-line{
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+main hr {
+    margin-top: 40px;
+}
+
+.share {
+    height: 150px;
+}
+
+.share>.left {
+    width: 80%;
+}
+
+.share img {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+.share div {
+    margin-left: 90px;
+    color: #565457;
+}
+
+.share .user {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222831;
+    line-height: 32px;
+}
+
+.share a {
+    color: #fff;
+    position: relative;
+    top: 20px;
+    padding: 20px 30px 15px 30px;
+    background: #bb7158;
+}
+.share a:hover {
+    opacity: 0.7;
+    background: #b35f4f;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+footer {
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+    height: 120px;
+}
+
+footer p {
+    margin: 0;
+    color: #888888;
+}
+footer img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 15px;
+    margin-bottom: 15px;
+}
+
+footer img:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition-duration: 3s;
+}
+
+input:checked+label {
+    text-decoration: line-through;
+    color: gray;
+}
